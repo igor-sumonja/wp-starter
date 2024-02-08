@@ -60,3 +60,12 @@ docker-compose up -d
 ## Using Xdebug with Your IDE
 
 To integrate Xdebug with your IDE (e.g., VSCode, PHPStorm), refer to your IDE's documentation for setting up PHP debugging with Xdebug. You may need to adjust IDE settings and xdebug.ini to ensure smooth integration.
+
+## Using WP-CLI
+
+To use WP-CLI you need to use command `docker-compose run --rm wp-cli` following the rest of WP-CLI command you want, it is rather long command so you can set up alias on your system like 
+```
+alias wpc="docker-compose run --rm wp-cli"
+```
+which would shorten it to simply `wpc`
+
