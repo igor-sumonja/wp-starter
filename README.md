@@ -7,6 +7,7 @@ Welcome to the WordPress Docker Xdebug Setup repository! This project provides a
 - **WordPress Latest Version**: Stay up-to-date with the latest WordPress release for your development needs.
 - **Docker Compose**: Easy setup and teardown with Docker Compose, making it simple to manage your development environment.
 - **Xdebug Integration**: Built-in Xdebug support for in-depth debugging of your WordPress themes and plugins.
+- **WP-CLI Integration**: Built-in WP-CLI setup that you can use in project.
 - **Customizable**: Easy to customize Docker configurations to suit your project's specific requirements.
 
 ## Prerequisites
