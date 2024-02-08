@@ -21,7 +21,7 @@ Before you begin, ensure you have the following installed on your system:
 **Clone the Repository**
 
 ```bash
-   git clone https://github.com/igor-sumonja/wordpress-docker-xdebug.git
+git clone https://github.com/igor-sumonja/wordpress-docker-xdebug.git
 ```
 
 **Navigate to the Project Directory**
