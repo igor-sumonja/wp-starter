@@ -70,3 +70,20 @@ alias wpc="docker-compose run --rm wp-cli"
 ```
 which would shorten it to simply `wpc`
 
+
+## DB BACKUP & RESTORE
+
+To backup and restore database you can use `wpc` command to run WP-CLI commands, for example:
+```
+# to backup
+wpc db export backup.sql
+mv ./wordpress/backup.sql ./db_backup/backup.sql
+
+# to restore
+mv ./db_backup/backup.sql ./wordpress/backup.sql
+wpc db import backup.sql
+```
+
+we are moving the backup.sql file to `db_backup` directory as restore file will be in wordpress directory 
+which is not included in the repository, and then moving it back to `wordpress` directory when we want 
+to restore it.
