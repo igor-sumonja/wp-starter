@@ -47,6 +47,7 @@ services:
     image: wordpress:cli
     volumes:
       - ./wordpress:/var/www/html/
+      - ./wp-content:/var/www/html/wp-content/
     depends_on:
       - db
       - wordpress
