@@ -27,7 +27,7 @@ git clone https://github.com/igor-sumonja/wp-starter.git
 **Navigate to the Project Directory**
 
 ```bash
-cd wordpress-docker-xdebug
+cd wp-starter
 ```
 
 **Start Docker Containers**
